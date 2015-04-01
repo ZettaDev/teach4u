@@ -1,0 +1,347 @@
+
+body{
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #565a5c;
+  background-color: #f5f5f5;
+  -webkit-font-smoothing: antialiased;
+}
+h1{
+  color: #565a5c;
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  box-shadow: none;
+}
+button:hover{
+  cursor: pointer;
+}
+#login{
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 2px solid #ff9900;
+  border-radius: 2px;
+  background: transparent;
+  color: #ff9900;
+  letter-spacing: 1px;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-transition: background-color 0.3s, color 0.3s, width 0.3s, border-width 0.3s, border-color 0.3s;
+  transition: background-color 0.3s, color 0.3s, width 0.3s, border-width 0.3s, border-color 0.3s;
+}
+#login:hover{
+  background-color: #ff9900;
+  color: #fff;
+}
+#registro{
+  box-sizing: border-box;
+  color: #d5dde5;
+  border: 1px solid #d5dde5;
+  background-color: transparent;
+  text-decoration:none;
+  border-radius:2px;
+}
+#registro:hover{
+  box-sizing: border-box;
+  cursor: pointer;
+  color: #d5dde5;
+  border: 1px solid #d5dde5;
+  background-color: transparent;
+  text-decoration:none;
+  border-radius:2px;
+}
+
+#actividadesRecientes{
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 2px solid #ACDCDD;
+  border-radius: 2px;
+  background: transparent;
+  color: #ACDCDD;
+  letter-spacing: 1px;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-transition: background-color 0.3s, color 0.3s, width 0.3s, border-width 0.3s, border-color 0.3s;
+  transition: background-color 0.3s, color 0.3s, width 0.3s, border-width 0.3s, border-color 0.3s;
+}
+#actividadesRecientes:hover{
+  background-color: #ACDCDD;
+  color: #fff;
+}
+#btnLogin{
+  display: block;
+  margin: 0 auto;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 2px solid #ff9900;
+  border-radius: 2px;
+  background: transparent;
+  color: #ff9900;
+  letter-spacing: 1px;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-transition: background-color 0.3s, color 0.3s, width 0.3s, border-width 0.3s, border-color 0.3s;
+  transition: background-color 0.3s, color 0.3s, width 0.3s, border-width 0.3s, border-color 0.3s;
+}
+#btnLogin:hover{
+  background-color: #ff9900;
+  color: #fff;
+}
+#fb{
+  border-color: #3B5998;
+  border-bottom-color: #263a63;
+  border: 1px solid #3B5998;
+  background-color: #3B5998;
+  color: #fff;
+  border-radius:2px;
+  width: 100%;
+}
+#btnRegistro{
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  border: 2px solid #ff9900;
+  border-radius: 2px;
+  background: transparent;
+  color: #ff9900;
+  letter-spacing: 1px;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-transition: background-color 0.3s, color 0.3s, width 0.3s, border-width 0.3s, border-color 0.3s;
+  transition: background-color 0.3s, color 0.3s, width 0.3s, border-width 0.3s, border-color 0.3s;
+}
+#btnRegistro:hover{
+  background-color: #ff9900;
+  color: #fff;
+}
+#gplus{
+    border: 1px solid #c4c4c4;
+  border-color: #c4c4c4;
+  background: white;
+  color: #565a5c;
+  text-decoration:none;
+  border-radius:2px;
+  width:100%;
+}
+#fb:hover{
+  border-color: #4568b2;
+  border-bottom-color: #2d4575;
+  background-color: #4568b2;
+  color: #fff;
+}
+
+#gplus:hover{
+  border-color: #aaa;
+  color: #565a5c;
+  text-decoration:none;
+}
+.uk-icon-facebook{
+    position: absolute;
+    font-size: 24px;
+  top:28px;
+    left: 32px;
+}
+.uk-icon-google-plus{
+    color:#DD4B39;
+    position: absolute;
+    font-size: 24px;
+  top:85px;
+    left: 32px;
+}
+.tm-fullscreen{
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.tm-navbar{
+  background: transparent;
+  border-bottom: none;
+  z-index: 1000;
+  top: 22px;
+  width: 100%;
+  position: absolute;
+}
+#miMenu{
+  background-color: #000;
+  display: none;
+}
+
+.uk-navbar-nav>li>a{
+  color:#fff;
+  box-shadow: none;
+}
+.uk-navbar-nav>li>a:hover{
+  color:#ff9900;
+  box-shadow: none;
+}
+.uk-navbar-nav>li>a:active{
+  color:#ff9900;
+  box-shadow: none;
+}
+.uk-aprent:hover{
+  box-shadow: none;
+}
+
+.uk-navbar-toggle{
+  color:#fff;
+}
+.uk-dropdown{
+  border-radius: 2px;
+}
+.uk-dropdown>ul>li>a:hover{
+  background-color: #fff;
+  color:#000;
+  box-shadow: none;
+}
+.uk-form-icon{
+  margin-top:12px;
+}
+.uk-form-width-large{
+  margin:12px;
+
+}
+.uk-modal-dialog{
+  width: 342px;
+  border-radius: 2px;
+}
+.img-circle{
+  border-radius: 50%;
+  width: 32px;
+}
+.fondoMenu{
+  background-color: #000;
+
+}
+.uk-overlay{
+  z-index: 999999;
+}
+.uk-form-icon>i{
+  margin-right: 32px;
+}
+
+.buscador{
+  width: 100%;
+  margin: 22px;
+
+}
+#buscar{
+  border-radius: 2px;
+  box-sizing: border-box;
+  background-color: #ff9900;
+  border: 1px solid #ff9900;
+  color: #fff;
+}
+#buscador{
+  background: rgba(0,0,0,0.6);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+}
+#lugar{
+  border-radius: 2px;
+}
+#isla{
+  border-radius: 2px;
+}
+#comunidad{
+  border-radius: 2px;
+  width: 311px;
+}
+#categoria{
+  border-radius: 2px;
+}
+#verMas{
+  box-sizing: border-box;
+  color: #ff9900;
+  border: 1px solid #ff9900;
+  background-color: transparent;
+  text-decoration:none;
+  border-radius:2px;
+}
+
+.tm-section-color-grey{
+  background-color: #edefed;
+
+}
+#menuRegistro{
+  background-color:#000;
+  top:0px;
+}
+.registro{
+  padding-top: 40px;
+}
+
+.home-search{
+  display: none;
+}
+.localidadReg,.infoReg{
+  padding-top: 20px;
+}
+
+
+@media screen and (max-width: 480px) {
+
+
+    .tm-fullscreen{
+      display: none;
+    }
+    .tm-navbar{
+      background-color: #000;
+      top:0px;
+    }
+    .islas{
+      padding-top: 40px;
+    }
+
+    .home-search{
+      display: block;
+      padding-top:100px;
+      paddingbottomp:40px;
+    }
+    .lugar,.isla,.comunidad,.categoria,.buscar{
+      width: 70%;
+    }
+    #buscar{
+      padding-top:10px;
+      padding-bottom:10px;
+    }
+}
+@media screen and (min-width:321px) and (max-width:768px) {
+    .lugar,.isla,.comunidad,.categoria,.buscar{
+      padding-top: 40px;
+    }
+
+    .tm-fullscreen{
+      display: none;
+    }
+    .tm-navbar{
+      background-color: #000;
+      top:0px;
+    }
+    .islas{
+      padding-top: 40px;
+    }
+    .home-search{
+      padding-top: 100px;
+      padding-bottom: 40px;
+      display: block;
+    }
+    #buscar{
+      padding-top:10px;
+      padding-bottom:10px;
+    }
+
+}
